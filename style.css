@@ -1,0 +1,105 @@
+body {
+
+	background-color: #F7F7F7;
+	color: rgb(30,30,30);
+	font-family: 'League Spartan', sans-serif;
+	font-size: 18px;
+
+}
+h1, h2 {
+	font-family : 'Roboto', sans-serif;
+}
+
+h1{
+	color: rgb(100,100,100);
+	font-weight: 1000;
+	letter-spacing: 5px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+h2{
+	color: #2D31FA;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+	color: red;
+	transition: color 0.2s ease;
+}
+a:hover {
+	color: blue;
+	text-decoration: underline;	
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.img-bordered {
+	border: 10px black;
+}
+#profile {
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+	text-align:center;
+	margin:auto;
+	display:flex;
+}
+
+.container{
+	width: 700px; 
+	margin: 40px auto;
+	}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+	background: white;                         
+	padding: 30px; 
+	margin: 50px;                            
+	border-radius: 4px;                       
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	text-align: center;
+}
+
+.img-ellipse {
+	width: 190px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+ }
+
+.btn-red {
+	background-color: #FF1818;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
